@@ -12,7 +12,6 @@ import numpy as np
 import scipy.misc as im
 
 
-
 path = '/home/ray/python_code/keras_examples/pix2pix/CMP_facade_DB_base/base'
 new_path = '/home/ray/python_code/keras_examples/pix2pix/' 
 resize_pic = 'resize_pic/'
@@ -59,9 +58,6 @@ def load():
     return np.array(pic),np.array(target)
     #random_number = np.random.randint(0,pic_nb-1,size=Batchsize)
     
-    
-
-
         
 if __name__ == '__main__':
     #resize(path)
